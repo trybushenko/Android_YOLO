@@ -12,3 +12,4 @@ Meanwhile I linked Tensorboard for monitoring of a training process of the model
 Here is the training process of yolov5 model on KITTI dataset for 2-d object detection:
 ![](https://github.com/trybushenko/Android_YOLO/blob/master/media/desktop_recording.ogv.gif)
 
+The whole preprocessing of KITTI images, its renaming, training, validation, exporting etc. are in yolov5/YOLO_setup.ipynb jupyter notebook. First thing first, check it out before viewing android application.
