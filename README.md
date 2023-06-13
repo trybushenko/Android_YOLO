@@ -3,7 +3,10 @@ In this repository I implemented an Android application with fine-tuned YOLOv5 a
 
 The KITTI dataset focuses on various aspects of autonomous driving, including object detection, tracking, and scene understanding. For 2D object detection specifically, the dataset provides labeled images along with bounding box annotations for different object classes. The objects of interest include pedestrians, cars, cyclists, and others commonly encountered in urban driving scenarios. 
 
-**Hyperparameters that I chose were ** -batch_size=16; -epochs=155; -pre-trained on COCO dataset YOLOv5n (nano) model.
+__Hyperparameters that I chose were__: 
+*batch_size=16; 
+*epochs=155; 
+*pre-trained on COCO dataset YOLOv5n (nano) model.
 
 Meanwhile I linked Tensorboard for monitoring of a training process of the model.
 Here is the training process of yolov5 model on KITTI dataset for 2-d object detection:
